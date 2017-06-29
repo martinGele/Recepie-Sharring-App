@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+
 /**
  * Settings activity which basically shows MyPreferenceFragment.
  * Done like this due to a limitation of PreferenceFragment
@@ -14,6 +16,11 @@ public class SettingsActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     Context context;
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

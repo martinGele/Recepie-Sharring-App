@@ -34,6 +34,8 @@ import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import java.util.ArrayList;
 import java.util.List;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+
 /**
  * This is the first Activity shown.
  * <p>
@@ -61,6 +63,12 @@ public class MainActivity extends AppCompatActivity implements IabBroadcastRecei
     //navigation drawer item identification numbers
     final int NAV_HOME = 0, NAV_FAV = 1, NAV_SHOP = 2, NAV_MORE = 3, NAV_INFO = 4, NAV_PREMIUM = 5, NAVSETTINGS = 6, NAV_CATEGORIES = 100, NAV_ADD_RECIPE = 7;
 
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,6 +80,9 @@ public class MainActivity extends AppCompatActivity implements IabBroadcastRecei
 
         setContentView(R.layout.activity_main);
         this.context = this;
+
+
+
 
         //portrait only
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

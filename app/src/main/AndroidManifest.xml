@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-
+        android:name=".CustomFont"
         tools:replace="android:icon">
         <activity
             android:name="com.martinrecipe.italian.MainActivity"
@@ -50,6 +50,7 @@
         </activity>
 
         <activity
+
             android:name="com.martinrecipe.italian.PremiumActivity"
             android:label="@string/premium_title"></activity>
 

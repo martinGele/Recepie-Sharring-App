@@ -33,6 +33,8 @@ import com.squareup.picasso.Picasso;
 import java.util.ArrayList;
 import java.util.List;
 
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+
 /**
  * This activity shows a single recipe
  */
@@ -47,6 +49,12 @@ public class SingleRecipeActivity extends AppCompatActivity {
     TextView recipeName;
     ImageView recipeImage;
     int slideshow_current_image = 0;
+
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
 
 
     @Override
