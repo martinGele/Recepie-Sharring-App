@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "993870457799",
+    "firebase_url": "https://science-time.firebaseio.com",
+    "project_id": "science-time",
+    "storage_bucket": "science-time.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993870457799:android:50262b37c7b2d752",
+        "android_client_info": {
+          "package_name": "martin.sciencetime.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993870457799-86nsuhjgcehrk8euc0pneb8q6aghe6ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANKDj4BYgc1vtUYKaLMR7ene-k7VbzFRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993870457799:android:980566879a160fdb",
+        "android_client_info": {
+          "package_name": "com.martinrecipe.italian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993870457799-86nsuhjgcehrk8euc0pneb8q6aghe6ms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANKDj4BYgc1vtUYKaLMR7ene-k7VbzFRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

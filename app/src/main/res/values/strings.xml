@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Sandwich Love</string>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_shopping_list">Shopping List</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_add_recipe">Suggest Recipe</string>
+    <string name="nav_info">Info</string>
+    <string name="nav_go_premium">Go Premium</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_categories_more">more</string>
+
+    <!-- New Recipe -->
+    <string name="add_recipe_title">Suggest Recipe</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_image">Main Image</string>
+    <string name="recipe_directions">Directions</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_category">Category</string>
+    <string name="recipe_new_ingredient">New Ingredient</string>
+    <string name="recipe_submit">Submit</string>
+    <string name="recipe_submitted">Recipe Submitted!</string>
+    <string name="add_image">Add an image before submission</string>
+    <string name="html_editor_insert_image_title">Insert Image</string>
+    <string name="html_editor_insert_image_description">Enter image url</string>
+    <string name="html_editor_insert_image_hint">Image URL</string>
+    <string name="html_editor_insert_link_title">Insert Link</string>
+    <string name="html_editor_insert_link_description">Enter Link Details</string>
+    <string name="html_editor_insert_link_url_hint">URL</string>
+    <string name="html_editor_insert_link_title_hint">Title</string>
+
+
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Recipe name</string>
+
+    <!-- Categories screen -->
+    <string name="categories_page_title">Categories</string>
+    <integer name="categories_to_show_in_drawer">4</integer>
+
+
+    <!-- Shopping List -->
+    <string name="shoppinglist_page_title">Shopping List</string>
+    <string name="shoppinglist_menu_clear">Clear All</string>
+    <string name="empty_shopping_list">No Items</string>
+    <string name="add_item_dialog_title">Add To List</string>
+    <string name="add_item_dialog_description">What would you like to add?</string>
+    <string name="add_item_dialog_hint">eg: salt and pepper</string>
+    <string name="add_item_other">Other</string>
+
+
+    <!-- Favorites Screen -->
+    <string name="favorite_page_title">Favorite Recipes</string>
+    <string name="empty_recipes">No Recipes</string>
+
+    <!-- Recipe - General -->
+    <string name="recipe_page_title">Recipe</string>
+    <string name="share_icon_title">Share</string>
+
+    <!-- Recipe - Ingredients -->
+    <string name="ingredients_title">Ingredients</string>
+
+    <string name="servings_picker_ok">OK</string>
+    <string name="servings_picker_cancel">CANCEL</string>
+    <string name="servings_picker_servings">servings</string>
+    <string name="servings">Ingredients for %d &#xf0d7;</string>f217
+    <string name="shoppingcart_icon">&#xf217;</string>
+    <string name="shoppingcart_check_icon">&#xf00c;</string>
+    <string name="shoppingcart_message">Added to Shopping List</string>
+
+    <!-- Recipe - Directions -->
+    <string name="directions_title">Directions</string>
+
+    <!-- Info Screen -->
+    <string name="info_page_title">Info</string>
+
+    <!-- Premium screen -->
+    <string name="premium_title">Go Premium</string>
+    <string name="premium_purchase">  GO PREMIUM  </string>
+    <string name="premium_noads">No Ads</string>
+
+    <!-- settings screen -->
+    <string name="settings_title">Settings</string>
+    <string name="pref_enable_push_notifications_title">Push Notifications</string>
+    <string name="pref_enable_push_notifications_summery">Enable to receive important news.</string>
+
+    <!-- preference save key (to save favorites and shopping list in user phone) -->
+    <string name="save_preference_name">recipe_app</string>
+
+    <!-- Internet error -->
+    <string name="no_internet_error_title">No Internet</string>
+    <string name="no_internet_error">No Internet Detected. Please turn on your Wifi</string>
+
+    <!--SHARE-->
+    <string name="share_message">Check out this recipe:</string>
+
+    <!--RATE-->
+    <!-- link is created automatically from package. Make sure package id is the same as the one used in google play -->
+    <string name="unable_to_reach_market">Error reaching market. Please check your internet connection</string>
+    <integer name="rate_shows_after_X_starts">5</integer>
+    <string name="rate_title">Please Rate us</string>
+    <string name="rate_text">If you like the app, feel free to leave a good rating.</string>
+
+    <!-- Alert -->
+    <string name="Alert_accept">OK</string>
+    <string name="Alert_cancel">Cancel</string>
+
+
+    <!-- Ad unit ids-->
+    <string name="interstitial_ad">ca-app-pub-3303923391763281/7803439855</string>
+    <integer name="ad_shows_after_X_clicks">5</integer>
+    <string name="banner_ad">ca-app-pub-3303923391763281/7663839052</string>
+
+
+    <string name="google_analytics_id">xx-xxxxxxxx-xx</string>
+
+
+</resources>
